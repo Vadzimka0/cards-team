@@ -55,14 +55,16 @@ body {
   font-size: 0.875rem;
 }
 
-/*https://developer.mozilla.org/ru/docs/Learn/CSS/Styling_text/Styling_links*/
+/* https://developer.mozilla.org/ru/docs/Learn/CSS/Styling_text/Styling_links */
 a {
+  color: var(--clr-black);
   outline: none;
   text-decoration: none;
   /*padding: 2px 1px 0;*/
 }
 
 a:link {
+  color: var(--clr-black);
 }
 
 a:visited {
