@@ -1,0 +1,11 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.emoji {
+  font-size: 7rem;
+}
