@@ -7,8 +7,12 @@ import { ReturnComponentType } from 'types';
 
 export const Navbar = (): ReturnComponentType => (
   <header className={styles.navbar}>
-    {/* <NavLink to={PATHS.PROFILE}>Profile</NavLink> */}
-    {/* <NavLink to={PATHS.PACKS}>Packs</NavLink> */}
+    <NavLink
+      to={PATHS.PROFILE}
+      className={({ isActive }) => (isActive ? styles.active : '')}
+    >
+      Profile
+    </NavLink>
     <NavLink
       to={PATHS.SIGN_UP}
       className={({ isActive }) => (isActive ? styles.active : '')}
