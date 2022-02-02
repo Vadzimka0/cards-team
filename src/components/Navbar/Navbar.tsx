@@ -2,17 +2,17 @@ import { NavLink } from 'react-router-dom';
 
 import styles from './Navbar.module.css';
 
-import { Paths } from 'enums';
+import { PATHS } from 'enums';
 import { ReturnComponentType } from 'types';
 
 export const Navbar = (): ReturnComponentType => (
   <header className={styles.navbar}>
-    <NavLink to={Paths.Profile}>Profile</NavLink>
-    <NavLink to={Paths.LogIn}>Log In</NavLink>
-    <NavLink to={Paths.SignUp}>Sign Up</NavLink>
-    <NavLink to={Paths.PasswordRecovery}>Password Recovery</NavLink>
-    <NavLink to={Paths.NewPassword}>New Password</NavLink>
-    <NavLink to={Paths.ErrorPage}>404</NavLink>
-    <NavLink to={Paths.TestPage}>Components</NavLink>
+    <NavLink to={PATHS.PROFILE}>Profile</NavLink>
+    <NavLink to={PATHS.LOGIN}>Log In</NavLink>
+    <NavLink to={PATHS.SIGN_UP}>Sign Up</NavLink>
+    <NavLink to={PATHS.PASSWORD_RECOVERY}>Password Recovery</NavLink>
+    <NavLink to={PATHS.NEW_PASSWORD}>New Password</NavLink>
+    <NavLink to={PATHS.ERROR}>404</NavLink>
+    <NavLink to={PATHS.TEST_PAGE}>Components</NavLink>
   </header>
 );

@@ -1,3 +1,4 @@
+/*
 import React, { ChangeEvent, DetailedHTMLProps, InputHTMLAttributes } from 'react';
 
 import styles from './SuperCheckbox.module.css';
@@ -44,3 +45,6 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = ({
 };
 
 export default SuperCheckbox;
+*/
+
+export {};

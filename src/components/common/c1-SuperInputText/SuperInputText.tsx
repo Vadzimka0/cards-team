@@ -1,3 +1,4 @@
+/*
 import React, {
   ChangeEvent,
   DetailedHTMLProps,
@@ -62,3 +63,5 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = ({
 };
 
 export default SuperInputText;
+*/
+export {};

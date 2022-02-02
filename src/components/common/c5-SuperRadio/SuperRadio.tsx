@@ -1,3 +1,4 @@
+/*
 import React, { ChangeEvent, InputHTMLAttributes, DetailedHTMLProps } from 'react';
 
 import styles from './SuperRadio.module.css';
@@ -50,3 +51,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = ({
 };
 
 export default SuperRadio;
+*/
+
+export {};

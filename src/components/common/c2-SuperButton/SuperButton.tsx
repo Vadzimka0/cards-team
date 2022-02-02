@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
+/* import React, { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 
 import styles from './SuperButton.module.css';
 
@@ -23,4 +23,5 @@ const SuperButton: React.FC<SuperButtonPropsType> = ({
   return <button type="button" className={finalClassName} {...restProps} />;
 };
 
-export default SuperButton;
+export default SuperButton; */
+export default {};

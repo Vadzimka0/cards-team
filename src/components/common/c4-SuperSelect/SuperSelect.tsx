@@ -1,3 +1,4 @@
+/*
 import React, { SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent } from 'react';
 
 import styles from './SuperSelect.module.css';
@@ -42,3 +43,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
 };
 
 export default SuperSelect;
+*/
+
+export {};
