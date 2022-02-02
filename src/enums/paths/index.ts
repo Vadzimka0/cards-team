@@ -1,6 +1,7 @@
 export enum PATHS {
   HOME = '/',
   PROFILE = '/profile',
+  PACKS = '/packs',
   LOGIN = '/login',
   SIGN_UP = '/signup',
   PASSWORD_RECOVERY = '/password-recovery',

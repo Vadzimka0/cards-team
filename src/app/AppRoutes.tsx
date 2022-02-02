@@ -1,7 +1,15 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { PATHS } from 'enums';
-import { ErrorPage, LogIn, NewPassword, PasswordRecovery, Profile, SignUp } from 'pages';
+import {
+  ErrorPage,
+  LogIn,
+  NewPassword,
+  Packs,
+  PasswordRecovery,
+  Profile,
+  SignUp,
+} from 'pages';
 import { TestPage } from 'pages/TestPage/TestPage';
 import { ReturnComponentType } from 'types';
 
@@ -9,6 +17,7 @@ export const AppRoutes = (): ReturnComponentType => (
   <Routes>
     <Route path={PATHS.HOME} element={<Profile />} />
     <Route path={PATHS.PROFILE} element={<Profile />} />
+    <Route path={PATHS.PACKS} element={<Packs />} />
     <Route path={PATHS.LOGIN} element={<LogIn />} />
     <Route path={PATHS.SIGN_UP} element={<SignUp />} />
     <Route path={PATHS.PASSWORD_RECOVERY} element={<PasswordRecovery />} />

@@ -7,3 +7,8 @@
   align-items: center;
   gap: 1.5rem;
 }
+
+a.active {
+  color: #e8e8e8;
+  background-color: royalblue;
+}
