@@ -1,4 +1,4 @@
-import { auth } from './auth';
-import { login } from './login';
+import { appReducer } from './appReducer';
+import { authReducer } from './authReducer';
 
-export { auth, login };
+export { appReducer, authReducer };

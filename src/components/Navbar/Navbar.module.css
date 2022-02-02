@@ -1,6 +1,7 @@
 .navbar {
-  padding: 1.5rem;
-  background-color: #fdf8ff;
+  min-height: 10vh;
+  padding: 1rem;
+  background-color: #f7e5ff;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -8,7 +9,14 @@
   gap: 1.5rem;
 }
 
+.navbar a {
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
 a.active {
-  color: #e8e8e8;
-  background-color: royalblue;
+  color: royalblue;
+  font-style: normal;
+  font-weight: 700;
+  pointer-events: none;
 }
