@@ -10,7 +10,7 @@ import {
   Profile,
   SignUp,
 } from 'pages';
-import { TestPage } from 'pages/TestPage/TestPage';
+import { TestPage } from 'pages/testPage/TestPage';
 import { ReturnComponentType } from 'types';
 
 export const AppRoutes = (): ReturnComponentType => (

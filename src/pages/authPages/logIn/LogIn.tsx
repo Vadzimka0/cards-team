@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navigate, NavLink } from 'react-router-dom';
 
 import { PATHS } from 'enums';
-import styles from 'pages/SignUp/SignUp.module.css';
+import styles from 'pages/authPages/signUp/SignUp.module.css';
 import { login } from 'store/reducers/authReducer';
 import { AppStoreType } from 'store/store';
 import { ReturnComponentType } from 'types';

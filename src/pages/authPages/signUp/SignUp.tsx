@@ -3,9 +3,8 @@ import { FormEvent, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Navigate, NavLink } from 'react-router-dom';
 
-import styles from './SignUp.module.css';
-
 import { PATHS } from 'enums';
+import styles from 'pages/authPages/signUp/SignUp.module.css';
 import { registration } from 'store/reducers/authReducer';
 import { AppStoreType } from 'store/store';
 import { ReturnComponentType } from 'types';

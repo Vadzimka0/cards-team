@@ -1,11 +1,11 @@
-import { ErrorPage } from './ErrorPage/ErrorPage';
-import { LogIn } from './LogIn/LogIn';
-import { NewPassword } from './NewPassword/NewPassword';
-import { Packs } from './Packs/Packs';
-import { PasswordRecovery } from './PasswordRecovery/PasswordRecovery';
-import { Profile } from './Profile/Profile';
-import { SignUp } from './SignUp/SignUp';
-import { TestPage } from './TestPage/TestPage';
+import { LogIn } from './authPages/logIn/LogIn';
+import { NewPassword } from './authPages/newPassword/NewPassword';
+import { PasswordRecovery } from './authPages/passwordRecovery/PasswordRecovery';
+import { SignUp } from './authPages/signUp/SignUp';
+import { ErrorPage } from './errorPage/ErrorPage';
+import { Packs } from './packs/Packs';
+import { Profile } from './profile/Profile';
+import { TestPage } from './testPage/TestPage';
 
 export {
   ErrorPage,

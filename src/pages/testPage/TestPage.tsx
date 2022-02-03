@@ -1,4 +1,4 @@
-import styles from 'pages/TestPage/TestPage.module.css';
+import styles from 'pages/testPage/TestPage.module.css';
 import { ReturnComponentType } from 'types';
 
 export const TestPage = (): ReturnComponentType => (

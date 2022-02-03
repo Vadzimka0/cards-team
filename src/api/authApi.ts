@@ -10,6 +10,11 @@ export const authAPI = {
     ),
   login: (payload: LoginData) =>
     instance.post<LoginData, AxiosResponse<UsersInfoResponse>>('/auth/login', payload),
+  passwordRestore: (data: PasswordRestoreData) =>
+    instance.post<PasswordRestoreData, AxiosResponse<PasswordResponse>>(
+      'auth/forgot',
+      data,
+    ),
 };
 
 export type RegistrationData = {
@@ -23,4 +28,13 @@ export type UsersInfoResponse = {
   name: string;
   avatar?: string;
   publicCardPacksCount: number;
+};
+export type PasswordRestoreData = {
+  email: string;
+  from: string;
+  message: string;
+};
+export type PasswordResponse = {
+  info: string;
+  error: string;
 };
