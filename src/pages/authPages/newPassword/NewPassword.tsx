@@ -1,24 +1,30 @@
 import { FormEvent, useState } from 'react';
 
+import { useDispatch, useSelector } from 'react-redux';
+import { Navigate, useParams } from 'react-router-dom';
+
+import { PATHS } from 'enums';
 import styles from 'pages/authPages/signUp/SignUp.module.css';
+import { createNewPassword } from 'store/reducers/authReducer';
+import { AppStoreType } from 'store/store';
 import { ReturnComponentType } from 'types';
 
 export const NewPassword = (): ReturnComponentType => {
-  /*  const dispatch = useDispatch();
+  const dispatch = useDispatch();
   const changingPasswordSuccess = useSelector<AppStoreType, boolean>(
     state => state.auth.isPasswordChanged,
   );
 
-  const params = useParams(); */
+  const params = useParams();
 
   const [password, setPassword] = useState<string>('');
 
   const handleFormSubmit = (e: FormEvent): void => {
     e.preventDefault();
-    // dispatch(createNewPassword(password, params.token));
+    dispatch(createNewPassword(password, params.token));
   };
 
-  // if (changingPasswordSuccess) return <Navigate to={PATHS.LOGIN}/>
+  if (changingPasswordSuccess) return <Navigate to={PATHS.LOGIN} />;
 
   return (
     <div>
