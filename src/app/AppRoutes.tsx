@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { PATHS } from 'enums';
 import {
+  CheckEmail,
   ErrorPage,
   LogIn,
   NewPassword,
@@ -21,7 +22,9 @@ export const AppRoutes = (): ReturnComponentType => (
     <Route path={PATHS.LOGIN} element={<LogIn />} />
     <Route path={PATHS.SIGN_UP} element={<SignUp />} />
     <Route path={PATHS.PASSWORD_RECOVERY} element={<PasswordRecovery />} />
+    <Route path={PATHS.CHECK_EMAIL} element={<CheckEmail />} />
     <Route path={PATHS.NEW_PASSWORD} element={<NewPassword />} />
+    <Route path={PATHS.NEW_PASSWORD_WITH_TOKEN} element={<NewPassword />} />
     <Route path={PATHS.ERROR} element={<ErrorPage />} />
     <Route path={PATHS.TEST_PAGE} element={<TestPage />} />
 

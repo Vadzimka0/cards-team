@@ -20,7 +20,7 @@ export const PasswordRecovery = (): ReturnComponentType => {
     dispatch(restoreThroughEmail(email));
   };
 
-  if (isEmailSent) return <Navigate to={PATHS.PROFILE} />;
+  if (isEmailSent) return <Navigate to={PATHS.CHECK_EMAIL} />;
 
   return (
     <div>

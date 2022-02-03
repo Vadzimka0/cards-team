@@ -15,6 +15,11 @@ export const authAPI = {
       'auth/forgot',
       data,
     ),
+  newPassword: (data: NewPasswordData) =>
+    instance.post<NewPasswordData, AxiosResponse<PasswordResponse>>(
+      'auth/set-new-password',
+      data,
+    ),
 };
 
 export type RegistrationData = {
@@ -37,4 +42,8 @@ export type PasswordRestoreData = {
 export type PasswordResponse = {
   info: string;
   error: string;
+};
+export type NewPasswordData = {
+  password: string;
+  resetPasswordToken: string | undefined;
 };

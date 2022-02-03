@@ -1,3 +1,4 @@
+import { CheckEmail } from './authPages/checkEmail/CheckEmail';
 import { LogIn } from './authPages/logIn/LogIn';
 import { NewPassword } from './authPages/newPassword/NewPassword';
 import { PasswordRecovery } from './authPages/passwordRecovery/PasswordRecovery';
@@ -13,6 +14,7 @@ export {
   NewPassword,
   Packs,
   PasswordRecovery,
+  CheckEmail,
   Profile,
   SignUp,
   TestPage,
